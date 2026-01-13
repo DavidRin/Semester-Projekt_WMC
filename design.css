@@ -1,12 +1,12 @@
 /* ===== GRUNDLAYOUT ===== */
 body {
-  background-color: rgb(35, 134, 5);
-  font-style: italic;
-  font-family: 'Brush Script MT', sans-serif;
+  background-color: rgb(35, 134, 5);/* Grüner Hintergrund */
+  font-style: italic;/* Text kursiv */
+  font-family: 'Brush Script MT', sans-serif;/* Schrift */
 }
-
+/* Trennlinie */
 hr {
-  height: 6px;
+  height: 6px;/* Dicke der Linie */
   background-color: rgb(116, 9, 9);
   border-color: rgb(116, 9, 9);
   margin-top: auto;
@@ -15,12 +15,12 @@ hr {
 
 /* ===== TEXT ===== */
 h1, h2, h3, p {
-  text-align: center;
+  text-align: center;/* Alle Texte zentrieren */
 }
 
 ul, li {
-  text-align: center;
-  list-style-type: circle;
+  text-align: center;/* Listen zentrieren */
+  list-style-type: circle;/*  Aufzählung Formatiren */
   list-style-position: inside;
 }
 
@@ -34,7 +34,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(74, 3, 74);
+  color: rgb(74, 3, 74);  
 }
 
 /* ===== BILDER (STANDARD) ===== */
@@ -75,7 +75,7 @@ img {
 
 /* Container pro Bild */
 .galerie .bild-container {
-  position: relative;
+  position: relative;/* Wichtig für absolute Position der Sprechblase */
   margin-bottom: 40px;
   width: 500px;                
   margin-left: auto;           
@@ -87,18 +87,18 @@ img {
   width: 500px;
   height: 800px;
   object-fit: cover;
-  cursor: pointer;
+  cursor: pointer;/* Mauszeiger wird zur Hand */
   display: block;             
 }
 
 /* ===== SPRECHBLASE ===== */
 .galerie .sprechblase {
-  display: none;
+  display: none;/* Anfangs unsichtbar */
 
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 100%;                 
+  right: 100%;   /* Links neben dem Bild */              
   margin-right: 20px;          
 
   background-color: rgb(255, 245, 220);
@@ -112,7 +112,7 @@ img {
   z-index: 10;
 }
 
-/* Pfeil – zeigt nach RECHTS zum Bild */
+/* Pfeil der Sprechblase – zeigt nach RECHTS zum Bild */
 .galerie .sprechblase::after {
   content: "";
   position: absolute;

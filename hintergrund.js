@@ -5,7 +5,7 @@ var originalFarbe = getComputedStyle(document.body).backgroundColor;
 // Merkt sich, ob das Bild aktiv ist
 var bildAktiv = false;
 
-/* Diese Funktion schaltet den Hintergrund um */
+/* Schaltet zwischen Farbe und Hintergrundbild u */
 function hintergrundBild() {
 
   // Wenn das Bild noch NICHT aktiv ist

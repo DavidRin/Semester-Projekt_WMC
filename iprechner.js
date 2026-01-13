@@ -10,7 +10,7 @@ function berechneIP() {
 
 
 
-  // Prüfen ob etwas fehlt oder der Suffix keine Zahl ist
+  // Prüfen ob etwas fehlt oder der Suffix keine Zahl ist und korrekt ist
   if (ip == "" || (isNaN(suffix))|| suffix<0 ||suffix>32){
     alert("Bitte IP-Adresse und Suffix eingeben");
     return; // Funktion abbrechen
@@ -21,7 +21,7 @@ function berechneIP() {
   // IP-Adresse an den Punkten trennen
   var teile = ip.split(".");
 
-  // Eine IP-Adresse muss genau 4 Teile haben
+  // Eine IP-Adresse muss 4 Teile haben
   if (teile.length != 4) {
     alert("IP-Adresse ist ungültig");
     return;
@@ -32,7 +32,7 @@ function berechneIP() {
   for (var i = 0; i < 4; i++) {
 
     // Text in Zahl umwandeln
-    teile[i] = Number(teile[i]);
+    teile[i] = Number(teile[i]);// in zahl
 
     // Jeder Teil muss zwischen 0 und 255 liegen
     if (teile[i] < 0 || teile[i] > 255) {

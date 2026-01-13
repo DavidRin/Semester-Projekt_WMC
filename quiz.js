@@ -53,14 +53,14 @@ const fragen = [
 
 let aktuelleFrage = 0;
 let punkte = 0;
-
+// HTML-Elemente holen
 const quizBox = document.getElementById("quizBox");
 const gameOverBox = document.getElementById("gameOverBox");
 const frageText = document.getElementById("frageText");
 const antwortButtons = document.querySelectorAll(".antwort");
 const scoreAnzeige = document.getElementById("scoreAnzeige");
 const bild = document.getElementById("quizBild");
-
+// Klick auf Bild startet Quiz
 bild.addEventListener("click", startQuiz);
 
 antwortButtons.forEach(btn => {

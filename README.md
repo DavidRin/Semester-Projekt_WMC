@@ -1,9 +1,6 @@
-Webvisitenkarte-JS-Funktionen
-• Einfügen eines Dropdown-Menüs:
-• Zur Navigation zwischen den Seiten
-• Änderung des Farbschemas für die Seiten
-• Hintergrund ändern bei anklicken
-• Popups bei KLicken über Bilder:
-o Random Zitate der abgebildeten Personen
-o Quiz auf der Startseite bei anklicken des Bildes
+Erweiterte Webvisitenkarte mit Galerie und IP Rechener
+• Dropdown-Menü zur Navigation zwischen den Seiten, Änderung des Farbschemas der Seiten,Änderung des Hintergrunds
+• Popups bei KLicken auf  Bilder:
+     Random Zitate der abgebildeten Personen
+    Quiz auf der Startseite bei anklicken des Bildes
 • Eine eigne Seite mit IP-Adressenrechner
