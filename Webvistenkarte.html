@@ -6,7 +6,9 @@
     <link href="design.css" rel="stylesheet">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+     <script src="navigation.js" defer></script>
+     <script src="quiz.js" defer></script>
+    <script src="hintergrund.js" defer></script>
   </head>
   <body>
 <nav>
@@ -23,33 +25,7 @@
   <hr>
 </nav>
 
-<script>
-function navAuswahl(wert) {
 
-  if (wert === "bg") {
-    hintergrundBild();
-  }
-
-  else if (wert === "fontStandard") {
-    schriftStandard();
-  }
-
-  else if (wert === "fontHellblau") {
-    schriftHellblau();
-  }
-
-  else if (
-    wert === "Webvistenkarte.html" ||
-    wert === "galerie.html" ||
-    wert === "seite2.html"
-  ) {
-    window.location.href = wert;
-  }
-
-  // Dropdown zurücksetzen, damit Auswahl mehrfach funktioniert
-  document.querySelector("select").value = "";
-}
-</script>
       <main>
         <div class="kopf">
             <h1>David Rinner</h1>
@@ -128,8 +104,7 @@ function navAuswahl(wert) {
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
                 </main>
-                <script src="quiz.js"></script>
-                <script src="hintergrund.js"></script>
+                
       </body>
 
 </html>

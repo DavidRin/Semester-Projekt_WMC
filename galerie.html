@@ -6,6 +6,8 @@
   <link href="design.css" rel="stylesheet">
   <script src="zitate.js" defer></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="navigation.js" defer></script>
+  <script src="hintergrund.js" defer></script>
 </head>
 
 <body>
@@ -24,33 +26,7 @@
   <hr>
 </nav>
 
-<script>
-function navAuswahl(wert) {
 
-  if (wert === "bg") {
-    hintergrundBild();
-  }
-
-  else if (wert === "fontStandard") {
-    schriftStandard();
-  }
-
-  else if (wert === "fontHellblau") {
-    schriftHellblau();
-  }
-
-  else if (
-    wert === "Webvistenkarte.html" ||
-    wert === "galerie.html" ||
-    wert === "seite2.html"
-  ) {
-    window.location.href = wert;
-  }
-
-  // Dropdown zurücksetzen, damit Auswahl mehrfach funktioniert
-  document.querySelector("select").value = "";
-}
-</script>
 
 <main>
 
@@ -108,6 +84,6 @@ function navAuswahl(wert) {
   </div>
 
 </main>
-<script src="hintergrund.js"></script>
+
 </body>
 </html>
