@@ -13,7 +13,7 @@ function navAuswahl(wert) {
   }
 
   else if (
-    wert === "Webvistenkarte.html" ||
+    wert === "index.html" ||
     wert === "galerie.html" ||
     wert === "seite2.html"
   ) {
